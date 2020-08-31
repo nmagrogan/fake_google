@@ -1,31 +1,21 @@
 <!DOCTYPE html>
-<style>
-  .nav_bar{
-    position: relative;
-    top: 16px;
-  }
-  .left_options{
-    position: absolute;
-    margin: 7px 0 0 1%;
-  }
-  .right_options{
-    position: absolute;
-    margin: 7px 0 0 83%;
-  }
-
-</style>
 
 <html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="home.css">
+</head>
+
 <body>
 
 
   <div class="nav_bar">
     <div class ="left_options">
-      <a href="#">About</a>
+      <a href="#" >About</a>
       <a href="#">Store</a>
     </div>
 
-    <div class = "right_options">
+    <div class="right_options">
       <a href="#">Gmail</a>
       <a href="#">Images</a>
       <a href="#">Options</a>
@@ -40,9 +30,9 @@
     >
 
     <form class="form">
-        <input type="text" name="search" id="search"> <br>
-        <input type="submit" value="Google Search">
-        <input type="submit" value="I'm feeling lucky"
+        <input type="text" name="search" id="search" class="search" maxlength="2048"> <br>
+        <input type="submit" value="Google Search" class="button">
+        <input type="submit" value="I'm feeling lucky" class="button">
     </form>
 
   </div>
